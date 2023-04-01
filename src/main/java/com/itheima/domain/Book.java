@@ -1,5 +1,4 @@
 package com.itheima.domain;
-//lombok
 
 //import lombok.Data;
 
@@ -11,7 +10,7 @@ public class Book {
     private String description;
 
 
-    public Book() {
+   public Book() {
     }
 
     public Book(Integer id, String type, String name, String description) {
@@ -29,18 +28,18 @@ public class Book {
         return id;
     }
 
-    /**
+   /**
      * 设置
      * @param id
-     */
+    */
     public void setId(Integer id) {
         this.id = id;
     }
 
-    /**
+   /**
      * 获取
      * @return type
-     */
+    */
     public String getType() {
         return type;
     }
@@ -48,7 +47,7 @@ public class Book {
     /**
      * 设置
      * @param type
-     */
+    */
     public void setType(String type) {
         this.type = type;
     }
@@ -56,7 +55,7 @@ public class Book {
     /**
      * 获取
      * @return name
-     */
+    */
     public String getName() {
         return name;
     }
@@ -64,7 +63,7 @@ public class Book {
     /**
      * 设置
      * @param name
-     */
+    */
     public void setName(String name) {
         this.name = name;
     }
@@ -72,7 +71,7 @@ public class Book {
     /**
      * 获取
      * @return description
-     */
+    */
     public String getDescription() {
         return description;
     }
@@ -80,7 +79,7 @@ public class Book {
     /**
      * 设置
      * @param description
-     */
+    */
     public void setDescription(String description) {
         this.description = description;
     }

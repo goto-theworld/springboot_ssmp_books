@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class BookServiceTest {
 
-    @Autowired
+    @Autowired  //用的IBookService
     private IBookService bookService;
 
     @Test

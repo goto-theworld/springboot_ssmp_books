@@ -40,11 +40,11 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!--&lt;!&ndash;lombok&ndash;&gt;
+        <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-        </dependency>-->
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
