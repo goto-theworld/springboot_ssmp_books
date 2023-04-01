@@ -28,13 +28,13 @@ public class R {
         this.flag = false;
         this.msg = msg;
     }
-   /* public R(Boolean flag, Object data, String msg) {
+   public R(Boolean flag, Object data, String msg) {
         this.flag = flag;
         this.data = data;
         this.msg = msg;
     }
 
-    *
+    /* *
      * 获取
      * @return flag
 
