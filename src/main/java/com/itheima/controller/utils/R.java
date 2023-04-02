@@ -1,14 +1,18 @@
 package com.itheima.controller.utils;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class R {
     private Boolean flag;
     private Object data;
     private String msg;
 
-    public R(){}
+   // public R(){}
 
     public R(Boolean flag){
         this.flag = flag;
@@ -28,12 +32,12 @@ public class R {
         this.flag = false;
         this.msg = msg;
     }
-   public R(Boolean flag, Object data, String msg) {
+   /*public R(Boolean flag, Object data, String msg) {
         this.flag = flag;
         this.data = data;
         this.msg = msg;
     }
-
+*/
     /* *
      * 获取
      * @return flag
